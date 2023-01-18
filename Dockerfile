@@ -13,9 +13,10 @@ RUN apt-get update && \
   rm -rf /var/lib/apt/lists/*
 
 COPY package.json .
+RUN npm install && npm install qrcode-terminal
 RUN npm install -g npm@8.1.3
 RUN npm install -g pm2
 RUN npm update
 COPY . .
 RUN pm2 save
-CMD ["pm2-runtime", "next.js"]`
+CMD ["node", "next.js"]`
