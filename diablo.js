@@ -4,7 +4,7 @@ BY
 LYNN
 ZYY
 PRII
-*/
+*/yu
 
 
 const { modul } = require('./module');
@@ -32,10 +32,10 @@ chats: {},
 ...(global.db || {})
 }
 
-global.ownerName = 'NurFakhri'
-global.ownerNumber = ["6285848607270@s.whatsapp.net"]
-global.packname = 'NurFakhri'
-global.author = 'Punya NurFakhri'
+global.ownerName = 'Rakaa'
+global.ownerNumber = ["62882006212045@s.whatsapp.net"]
+global.packname = 'KhaTheHard'
+global.author = 'punya cowonya aisah'
 global.prefa = ['','.']
 global.mess = {
     wait: 'Tunggu Bwanhh!!',
@@ -324,7 +324,7 @@ jiren = `
 ➣ self ( Khusus Owner Cuy )
 ➣ public ( khusus di nomer Bot )
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
-FAKHRI GANTENG UWU
+RAKA NEED MONEY
 ▬▭▬▭▬ ✦✧✦ ▬▭▬▭▬
     
 `
@@ -334,7 +334,7 @@ let buttons = [
 
             let buttonMessage = {
                 text: jiren,
-                footer: `By NurFakhri`,
+                footer: `By KhaTheDarkness`,
                 buttons: buttons,
                 headerType: 1
             }
